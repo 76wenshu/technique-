@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //在从后端请求数据（对数据的预处理）
+        Array.isArray(data) && data.forEach(()=>{})
+        //空值合并运算符
+        z?.xx?.z
+undefined
+var z = {x:{z:200}}
+undefined
+z?.xx?.z
+undefined
+//这种情况就是会报错，应为对象中没有xx就更不要说是XX.z那就是会报错
+z?.xx.z
+// VM340:1 Uncaught TypeError: Cannot read property 'z' of undefined
+//     at <anonymous>:1:6
+    </script>
+</body>
+</html>
